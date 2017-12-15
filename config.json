@@ -1,0 +1,47 @@
+{
+    "base_coin": {
+        "name": "bytecoin",
+        "git": "https://github.com/amjuarez/bytecoin.git"
+    },
+    "core": {
+        "SEED_NODES": [
+            "35.200.198.168:6353",
+            "35.200.156.123:6353",
+            "35.200.181.75:6353"
+        ],
+        "EMISSION_SPEED_FACTOR": 22,
+        "DIFFICULTY_TARGET": 15,
+        "CRYPTONOTE_DISPLAY_DECIMAL_POINT": 10,
+        "MONEY_SUPPLY": "8500000000000000000",
+        "GENESIS_BLOCK_REWARD": "0",
+        "DEFAULT_DUST_THRESHOLD": 100000,
+        "MINIMUM_FEE": 100000,
+        "CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW": 80,
+        "CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE": 100000,
+        "MAX_TRANSACTION_SIZE_LIMIT": 100000,
+        "CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX": 79,
+        "DIFFICULTY_CUT_V1": 60,
+        "DIFFICULTY_CUT_V2": 60,
+        "DIFFICULTY_CUT": 0,
+        "DIFFICULTY_LAG_V1": 15,
+        "DIFFICULTY_LAG_V2": 15,
+        "DIFFICULTY_LAG": 0,
+        "DIFFICULTY_WINDOW_V1": 5760,
+        "DIFFICULTY_WINDOW_V2": 5760,
+        "DIFFICULTY_WINDOW": 17,
+        "ZAWY_DIFFICULTY_V3": 1,
+        "ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION": 3,
+        "P2P_DEFAULT_PORT": 6353,
+        "RPC_DEFAULT_PORT": 6354,
+        "BYTECOIN_NETWORK": "0506bf50-a120-56cb-2697-2e6d80518314",
+        "GENESIS_COINBASE_TX_HEX": "010a01ff0001bbb88fc2fd3a029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101667e467810d5045ad3c5c971460a0d3c7cb20a08ed732caa8a6f2b1230310761",
+        "CRYPTONOTE_NAME": "positrion",
+        "DAEMON_NAME": "positriond",
+        "CHECKPOINTS": "",
+        "MAX_BLOCK_SIZE_INITIAL": 100000
+    },
+    "extensions": [
+        "core/bytecoin.json",
+        "print-genesis-tx.json"
+    ]
+}
